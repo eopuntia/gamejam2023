@@ -1,6 +1,6 @@
 all:
-	gcc -o main.c
+	gcc -o main.cpp
 run: 
 	./main
 clean:
-	rm main
+	rm -r main
